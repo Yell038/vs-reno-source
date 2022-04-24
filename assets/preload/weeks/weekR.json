@@ -1,0 +1,32 @@
+{
+	"storyName": "COOL BEANS",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "road",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"coolio",
+			"reno",
+			[
+				60,
+				180,
+				20
+			]
+		]
+	],
+	"weekCharacters": [
+		"reno",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Custom Week"
+}

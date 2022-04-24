@@ -1,0 +1,79 @@
+{
+	"song": {
+		"speed": 2.1,
+		"stage": "renoback",
+		"player1": "bf-lcd",
+		"player2": "renoLCD",
+		"player3": "gf-lcd",
+		"events": [
+			[
+				0,
+				[
+					[
+						"Add Camera Zoom",
+						"0.40",
+						"0.90"
+					]
+				]
+			],
+			[
+				9600,
+				[
+					[
+						"Add Camera Zoom",
+						"0.016",
+						"0.04"
+					]
+				]
+			],
+			[
+				10650,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				57600,
+				[
+					[
+						"Blammed Lights",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				67200,
+				[
+					[
+						"Blammed Lights",
+						"4",
+						""
+					]
+				]
+			],
+			[
+				76800,
+				[
+					[
+						"Blammed Lights",
+						"0",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 100,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "coolio"
+	}
+}
