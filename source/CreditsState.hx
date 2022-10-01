@@ -80,10 +80,12 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['VS Reno Developers'],
-			['YelloDoesPorts',		'yello',		'Creator of the mod, Composer, and Owner of the character, Reno.',						'https://youtube.com/c/Yellodoesthings',	'FFFFDD33'],
-			['Superboy in-GAME',		'superboy',		'Coder, Charter, Animator, and Assistant',						'https://youtube.com/channel/UCigeSMU_9ip1XljY5s3LYIw',	'FFFFDD33'],
+			['YelloDoesPorts',		'yello',		'Creator of the mod, Composer, Charter, and Owner of the character.',						'https://youtube.com/c/Yellodoesthings',	'FFDD33'],
+			['Superboy in-GAME',		'superboy',		'Coder, Charter, Animator, Secondary Composer, and Assistant',						'https://youtube.com/channel/UCigeSMU_9ip1XljY5s3LYIw',	'FFDD33'],
 			['Additional Credits'],
-			['bb-panzu',			'bb-panzu',			'Owns the assets from the VS. Tord mod',				'https://twitter.com/bbsub3',			'389A58'],
+			['bb-panzu',			'bb',			'Owns the assets from the VS. Tord mod',				'https://twitter.com/bbsub3',			'389A58'],
+			['Other Credits'],
+			['Nick Bean',		'nick',		'Composed nugget (it wasnt made for the mod lol)',						'https://www.youtube.com/watch?v=gFAZVWd5Edk',	'9E7329'],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',						'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',					'https://twitter.com/river_oaken',		'C30085'],
