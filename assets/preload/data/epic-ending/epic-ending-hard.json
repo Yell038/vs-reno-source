@@ -1,7 +1,7 @@
 {
 	"song": {
 		"player1": "bf-lcd",
-		"player2": "RenoLCD",
+		"player2": "renoLCD",
 		"notes": [
 			{
 				"lengthInSteps": 16,
