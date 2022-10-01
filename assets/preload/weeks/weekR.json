@@ -1,16 +1,4 @@
 {
-	"storyName": "COOL BEANS",
-	"difficulties": "",
-	"hideFreeplay": false,
-	"weekBackground": "road",
-	"weekBefore": "tutorial",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
-	"startUnlocked": true,
-	"hideStoryMode": false,
 	"songs": [
 		[
 			"coolio",
@@ -20,13 +8,43 @@
 				180,
 				20
 			]
+		],
+		[
+			"slick",
+			"reno",
+			[
+				60,
+				180,
+				20
+			]
+		],
+		[
+			"epic ending",
+			"reno",
+			[
+				60,
+				180,
+				20
+			]
 		]
 	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "road",
+	"difficulties": "",
 	"weekCharacters": [
 		"reno",
 		"bf",
 		"gf"
 	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "Custom Week"
+	"storyName": "Cool Beans",
+	"weekName": "Reno Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
 }

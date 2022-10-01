@@ -21,5 +21,8 @@ bf-pixel-opponent
 pico-player
 reno
 renoLCD
+nugget
 bf-lcd
 gf-lcd
+reno_old
+renoLCD_old
