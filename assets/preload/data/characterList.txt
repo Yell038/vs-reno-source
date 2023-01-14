@@ -18,11 +18,9 @@ senpai
 senpai-angry
 spirit
 bf-pixel-opponent
+gf-tankmen
+tankman
+pico-speaker
+bf-holding-gf
 pico-player
-reno
-renoLCD
-nugget
-bf-lcd
-gf-lcd
-reno_old
-renoLCD_old
+tankman-player

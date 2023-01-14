@@ -19,6 +19,7 @@ using StringTools;
 
 class AchievementsMenuState extends MusicBeatState
 {
+	#if ACHIEVEMENTS_ALLOWED
 	var options:Array<String> = [];
 	private var grpOptions:FlxTypedGroup<Alphabet>;
 	private static var curSelected:Int = 0;
@@ -41,6 +42,7 @@ class AchievementsMenuState extends MusicBeatState
 		grpOptions = new FlxTypedGroup<Alphabet>();
 		add(grpOptions);
 
+		Achievements.loadAchievements();
 		for (i in 0...Achievements.achievementsStuff.length) {
 			if(!Achievements.achievementsStuff[i][3] || Achievements.achievementsMap.exists(Achievements.achievementsStuff[i][2])) {
 				options.push(Achievements.achievementsStuff[i]);
@@ -50,11 +52,10 @@ class AchievementsMenuState extends MusicBeatState
 
 		for (i in 0...options.length) {
 			var achieveName:String = Achievements.achievementsStuff[achievementIndex[i]][2];
-			var optionText:Alphabet = new Alphabet(0, (100 * i) + 210, Achievements.isAchievementUnlocked(achieveName) ? Achievements.achievementsStuff[achievementIndex[i]][0] : '?', false, false);
+			var optionText:Alphabet = new Alphabet(280, 300, Achievements.isAchievementUnlocked(achieveName) ? Achievements.achievementsStuff[achievementIndex[i]][0] : '?', false);
 			optionText.isMenuItem = true;
-			optionText.x += 280;
-			optionText.xAdd = 200;
-			optionText.targetY = i;
+			optionText.targetY = i - curSelected;
+			optionText.snapToPosition();
 			grpOptions.add(optionText);
 
 			var icon:AttachedAchievement = new AttachedAchievement(optionText.x - 105, optionText.y, achieveName);
@@ -115,5 +116,7 @@ class AchievementsMenuState extends MusicBeatState
 			}
 		}
 		descText.text = Achievements.achievementsStuff[achievementIndex[curSelected]][1];
+		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
 	}
+	#end
 }
