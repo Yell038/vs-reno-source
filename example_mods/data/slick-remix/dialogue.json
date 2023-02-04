@@ -1,0 +1,68 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "are you sure you're not just reno in disguise?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jaq",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "stop."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "you make that same goofy sound when rapping"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "come to think of it, the song did seem similar."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jaq",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "fine, i'll use my real voice. you happy?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "you're not gonna do anything about the songs?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jaq",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "nope, because mine are better."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "whatever you say."
+		}
+	]
+}

@@ -1,0 +1,132 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Man that guy was cool."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yeah! his songs were pretty cool as well."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jaq",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "hello there."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "yooo RENO wassup my man?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "The purple looks great on you!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jaq",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "reno? you mean the guy I bully everyday?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "you're not reno?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jaq",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "my name is JAQ."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "like \"jack\"?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jaq",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "oh my god."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "well you know what?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "bf, i'm tired. can we not-"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "rap bater"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "demon",
+			"text": "OH COME ON."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jaq",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "well,"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jaq",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "sure thing."
+		}
+	]
+}

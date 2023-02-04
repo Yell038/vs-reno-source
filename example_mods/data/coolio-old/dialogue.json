@@ -1,0 +1,52 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "rheanoh",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "heallow"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "uhhhh"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "wth are you"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "uhhhhhhhh"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ok i dont even know anymore just rap this weirdo i guess"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "rheanoh",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "hey im not weirdo >:((((((((((("
+		}
+	]
+}

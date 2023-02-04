@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Reno_DIALOGUE.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mad0000" x="1114" y="0" width="560" height="660" frameX="0" frameY="0" frameWidth="580" frameHeight="678"/>
+	<SubTexture name="mad0001" x="1114" y="0" width="560" height="660" frameX="0" frameY="0" frameWidth="580" frameHeight="678"/>
+	<SubTexture name="mad loop0000" x="0" y="0" width="556" height="678" frameX="0" frameY="0" frameWidth="580" frameHeight="678"/>
+	<SubTexture name="mad loop0001" x="0" y="0" width="556" height="678" frameX="0" frameY="0" frameWidth="580" frameHeight="678"/>
+	<SubTexture name="mad loop0002" x="556" y="0" width="558" height="661" frameX="-16" frameY="-15" frameWidth="580" frameHeight="678"/>
+	<SubTexture name="mad loop0003" x="556" y="0" width="558" height="661" frameX="-16" frameY="-15" frameWidth="580" frameHeight="678"/>
+	<SubTexture name="mad loop0004" x="1114" y="0" width="560" height="660" frameX="-20" frameY="-16" frameWidth="580" frameHeight="678"/>
+	<SubTexture name="mad loop0005" x="1114" y="0" width="560" height="660" frameX="-20" frameY="-16" frameWidth="580" frameHeight="678"/>
+	<SubTexture name="neutral0000" x="0" y="678" width="474" height="601"/>
+	<SubTexture name="neutral0001" x="0" y="678" width="474" height="601"/>
+	<SubTexture name="neutral loop0000" x="474" y="678" width="479" height="616" frameX="0" frameY="0" frameWidth="492" frameHeight="616"/>
+	<SubTexture name="neutral loop0001" x="474" y="678" width="479" height="616" frameX="0" frameY="0" frameWidth="492" frameHeight="616"/>
+	<SubTexture name="neutral loop0002" x="953" y="678" width="473" height="605" frameX="-14" frameY="-10" frameWidth="492" frameHeight="616"/>
+	<SubTexture name="neutral loop0003" x="953" y="678" width="473" height="605" frameX="-14" frameY="-10" frameWidth="492" frameHeight="616"/>
+	<SubTexture name="neutral loop0004" x="1426" y="678" width="474" height="601" frameX="-18" frameY="-14" frameWidth="492" frameHeight="616"/>
+	<SubTexture name="neutral loop0005" x="1426" y="678" width="474" height="601" frameX="-18" frameY="-14" frameWidth="492" frameHeight="616"/>
+	<SubTexture name="talk0000" x="0" y="1294" width="472" height="601"/>
+	<SubTexture name="talk0001" x="0" y="1294" width="472" height="601"/>
+	<SubTexture name="talk loop0000" x="472" y="1294" width="481" height="619" frameX="0" frameY="0" frameWidth="490" frameHeight="619"/>
+	<SubTexture name="talk loop0001" x="472" y="1294" width="481" height="619" frameX="0" frameY="0" frameWidth="490" frameHeight="619"/>
+	<SubTexture name="talk loop0002" x="953" y="1294" width="475" height="608" frameX="-14" frameY="-10" frameWidth="490" frameHeight="619"/>
+	<SubTexture name="talk loop0003" x="953" y="1294" width="475" height="608" frameX="-14" frameY="-10" frameWidth="490" frameHeight="619"/>
+	<SubTexture name="talk loop0004" x="1428" y="1294" width="472" height="601" frameX="-18" frameY="-17" frameWidth="490" frameHeight="619"/>
+	<SubTexture name="talk loop0005" x="1428" y="1294" width="472" height="601" frameX="-18" frameY="-17" frameWidth="490" frameHeight="619"/>
+</TextureAtlas>

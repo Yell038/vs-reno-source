@@ -12,6 +12,7 @@ import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.group.FlxGroup;
 import flixel.math.FlxMath;
 import flixel.text.FlxText;
+import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
@@ -291,6 +292,18 @@ class StoryMenuState extends MusicBeatState
 
 				grpWeekText.members[curWeek].startFlashing();
 
+				FlxTween.tween(rightArrow, {alpha: 0}, 0.2, {
+					ease: FlxEase.linear,
+				});
+
+				FlxTween.tween(leftArrow, {alpha: 0}, 0.2, {
+					ease: FlxEase.linear,
+				});
+
+				FlxTween.tween(bgSprite, {alpha: 0}, 0.2, {
+					ease: FlxEase.linear,
+				});
+
 				for (char in grpWeekCharacters.members)
 				{
 					if (char.character != '' && char.hasConfirmAnimation)
@@ -330,7 +343,6 @@ class StoryMenuState extends MusicBeatState
 			FlxG.sound.play(Paths.sound('cancelMenu'));
 		}
 	}
-
 	var tweenDifficulty:FlxTween;
 	function changeDifficulty(change:Int = 0):Void
 	{

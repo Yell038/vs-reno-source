@@ -35,10 +35,8 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
-		#if MODS_ALLOWED 'mods', #end
 		#if ACHIEVEMENTS_ALLOWED 'awards', #end
 		'credits',
-		#if !switch 'donate', #end
 		'options'
 	];
 
@@ -46,6 +44,7 @@ class MainMenuState extends MusicBeatState
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
+	var bf:BGSprite;
 
 	override function create()
 	{
@@ -106,6 +105,11 @@ class MainMenuState extends MusicBeatState
 		/*if(optionShit.length > 6) {
 			scale = 6 / optionShit.length;
 		}*/
+
+		bf = new BGSprite('mods/images/characters/reno', -275, -215, 0.9, 0.9, ['Idle'], false);
+		bf.visible = false;
+		bf.setGraphicSize(Std.int(bf.width * 0.5));
+		add(bf);
 
 		for (i in 0...optionShit.length)
 		{
@@ -168,6 +172,11 @@ class MainMenuState extends MusicBeatState
 	}
 	#end
 
+	override function beatHit(){
+		trace("beet hit");
+		bf.dance();
+	}
+
 	var selectedSomethin:Bool = false;
 
 	override function update(elapsed:Float)
@@ -219,7 +228,7 @@ class MainMenuState extends MusicBeatState
 					{
 						if (curSelected != spr.ID)
 						{
-							FlxTween.tween(spr, {alpha: 0}, 0.4, {
+							FlxTween.tween(spr, {alpha: 0}, 0.2, {
 								ease: FlxEase.quadOut,
 								onComplete: function(twn:FlxTween)
 								{
@@ -280,6 +289,24 @@ class MainMenuState extends MusicBeatState
 			curSelected = 0;
 		if (curSelected < 0)
 			curSelected = menuItems.length - 1;
+
+		/*
+		switch (optionShit[curSelected])
+        {
+            case 'story_mode':
+                removeChar(picoo, spoopy, chesta);
+                bf.visible = true;
+            case 'freeplay':
+                removeChar(bf, picoo, chesta);
+                spoopy.visible = true;
+            case 'credits':
+                removeChar(bf, picoo, spoopy);
+                chesta.visible = true;
+            case 'options':
+                removeChar(bf, chesta, spoopy);
+                picoo.visible = true;
+        }
+		*/
 
 		menuItems.forEach(function(spr:FlxSprite)
 		{
