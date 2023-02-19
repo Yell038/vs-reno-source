@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jaqDialogue.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="talk0000" x="0" y="0" width="454" height="649"/>
+	<SubTexture name="talk0001" x="0" y="0" width="454" height="649"/>
+	<SubTexture name="talk loop0000" x="0" y="649" width="451" height="667" frameX="0" frameY="0" frameWidth="477" frameHeight="668"/>
+	<SubTexture name="talk loop0001" x="0" y="649" width="451" height="667" frameX="0" frameY="0" frameWidth="477" frameHeight="668"/>
+	<SubTexture name="talk loop0002" x="0" y="1316" width="452" height="651" frameX="-18" frameY="-16" frameWidth="477" frameHeight="668"/>
+	<SubTexture name="talk loop0003" x="0" y="1316" width="452" height="651" frameX="-18" frameY="-16" frameWidth="477" frameHeight="668"/>
+	<SubTexture name="talk loop0004" x="0" y="0" width="454" height="649" frameX="-23" frameY="-19" frameWidth="454" frameHeight="649"/>
+	<SubTexture name="talk loop0005" x="0" y="0" width="454" height="649" frameX="-23" frameY="-19" frameWidth="454" frameHeight="649"/>
+</TextureAtlas>

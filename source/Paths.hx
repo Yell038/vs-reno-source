@@ -404,7 +404,7 @@ class Paths
 
 	#if MODS_ALLOWED
 	inline static public function mods(key:String = '') {
-		return 'mods/' + key;
+		return 'vsRenoPortable/' + key;
 	}
 
 	inline static public function modsFont(key:String) {
@@ -463,7 +463,7 @@ class Paths
 				return fileToCheck;
 
 		}
-		return 'mods/' + key;
+		return 'vsRenoPortable/' + key;
 	}
 
 	public static var globalMods:Array<String> = [];

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="icon-reno.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Lose0000" x="0" y="0" width="105" height="99" frameX="0" frameY="-4" frameWidth="105" frameHeight="103"/>
+	<SubTexture name="Lose0001" x="105" y="0" width="101" height="101" frameX="-3" frameY="-2" frameWidth="105" frameHeight="103"/>
+	<SubTexture name="Lose0002" x="206" y="0" width="100" height="102" frameX="-4" frameY="-1" frameWidth="105" frameHeight="103"/>
+	<SubTexture name="Lose0003" x="306" y="0" width="99" height="103" frameX="-5" frameY="0" frameWidth="105" frameHeight="103"/>
+	<SubTexture name="Lose0004" x="405" y="0" width="99" height="103" frameX="-5" frameY="0" frameWidth="105" frameHeight="103"/>
+	<SubTexture name="Lose0005" x="0" y="103" width="98" height="103" frameX="-5" frameY="0" frameWidth="105" frameHeight="103"/>
+	<SubTexture name="Lose0006" x="0" y="103" width="98" height="103" frameX="-5" frameY="0" frameWidth="105" frameHeight="103"/>
+	<SubTexture name="Lose0007" x="0" y="103" width="98" height="103" frameX="-5" frameY="0" frameWidth="105" frameHeight="103"/>
+	<SubTexture name="Lose0008" x="0" y="103" width="98" height="103" frameX="-5" frameY="0" frameWidth="105" frameHeight="103"/>
+	<SubTexture name="Lose0009" x="0" y="103" width="98" height="103" frameX="-5" frameY="0" frameWidth="105" frameHeight="103"/>
+	<SubTexture name="Lose0010" x="0" y="103" width="98" height="103" frameX="-5" frameY="0" frameWidth="105" frameHeight="103"/>
+	<SubTexture name="Lose0011" x="0" y="103" width="98" height="103" frameX="-5" frameY="0" frameWidth="105" frameHeight="103"/>
+	<SubTexture name="Lose0012" x="0" y="103" width="98" height="103" frameX="-5" frameY="0" frameWidth="105" frameHeight="103"/>
+	<SubTexture name="Lose0013" x="0" y="103" width="98" height="103" frameX="-5" frameY="0" frameWidth="105" frameHeight="103"/>
+	<SubTexture name="Lose0014" x="0" y="103" width="98" height="103" frameX="-5" frameY="0" frameWidth="105" frameHeight="103"/>
+	<SubTexture name="Neutral0000" x="98" y="103" width="104" height="98" frameX="0" frameY="-5" frameWidth="104" frameHeight="103"/>
+	<SubTexture name="Neutral0001" x="202" y="103" width="102" height="101" frameX="-1" frameY="-2" frameWidth="104" frameHeight="103"/>
+	<SubTexture name="Neutral0002" x="304" y="103" width="100" height="102" frameX="-2" frameY="-1" frameWidth="104" frameHeight="103"/>
+	<SubTexture name="Neutral0003" x="404" y="103" width="99" height="103" frameX="-3" frameY="0" frameWidth="104" frameHeight="103"/>
+	<SubTexture name="Neutral0004" x="0" y="206" width="99" height="103" frameX="-3" frameY="0" frameWidth="104" frameHeight="103"/>
+	<SubTexture name="Neutral0005" x="99" y="206" width="98" height="103" frameX="-3" frameY="0" frameWidth="104" frameHeight="103"/>
+	<SubTexture name="Neutral0006" x="99" y="206" width="98" height="103" frameX="-3" frameY="0" frameWidth="104" frameHeight="103"/>
+	<SubTexture name="Neutral0007" x="99" y="206" width="98" height="103" frameX="-3" frameY="0" frameWidth="104" frameHeight="103"/>
+	<SubTexture name="Neutral0008" x="99" y="206" width="98" height="103" frameX="-3" frameY="0" frameWidth="104" frameHeight="103"/>
+	<SubTexture name="Neutral0009" x="99" y="206" width="98" height="103" frameX="-3" frameY="0" frameWidth="104" frameHeight="103"/>
+	<SubTexture name="Neutral0010" x="99" y="206" width="98" height="103" frameX="-3" frameY="0" frameWidth="104" frameHeight="103"/>
+	<SubTexture name="Neutral0011" x="99" y="206" width="98" height="103" frameX="-3" frameY="0" frameWidth="104" frameHeight="103"/>
+	<SubTexture name="Neutral0012" x="99" y="206" width="98" height="103" frameX="-3" frameY="0" frameWidth="104" frameHeight="103"/>
+	<SubTexture name="Neutral0013" x="99" y="206" width="98" height="103" frameX="-3" frameY="0" frameWidth="104" frameHeight="103"/>
+	<SubTexture name="Neutral0014" x="99" y="206" width="98" height="103" frameX="-3" frameY="0" frameWidth="104" frameHeight="103"/>
+	<SubTexture name="Winning0000" x="197" y="206" width="108" height="107" frameX="-2" frameY="0" frameWidth="110" frameHeight="107"/>
+	<SubTexture name="Winning0001" x="305" y="206" width="107" height="105" frameX="-1" frameY="-2" frameWidth="110" frameHeight="107"/>
+	<SubTexture name="Winning0002" x="0" y="313" width="107" height="104" frameX="0" frameY="-3" frameWidth="110" frameHeight="107"/>
+	<SubTexture name="Winning0003" x="107" y="313" width="106" height="104" frameX="0" frameY="-3" frameWidth="110" frameHeight="107"/>
+	<SubTexture name="Winning0004" x="213" y="313" width="106" height="103" frameX="0" frameY="-4" frameWidth="110" frameHeight="107"/>
+	<SubTexture name="Winning0005" x="319" y="313" width="106" height="103" frameX="0" frameY="-4" frameWidth="110" frameHeight="107"/>
+	<SubTexture name="Winning0006" x="319" y="313" width="106" height="103" frameX="0" frameY="-4" frameWidth="110" frameHeight="107"/>
+	<SubTexture name="Winning0007" x="319" y="313" width="106" height="103" frameX="0" frameY="-4" frameWidth="110" frameHeight="107"/>
+	<SubTexture name="Winning0008" x="319" y="313" width="106" height="103" frameX="0" frameY="-4" frameWidth="110" frameHeight="107"/>
+	<SubTexture name="Winning0009" x="319" y="313" width="106" height="103" frameX="0" frameY="-4" frameWidth="110" frameHeight="107"/>
+	<SubTexture name="Winning0010" x="319" y="313" width="106" height="103" frameX="0" frameY="-4" frameWidth="110" frameHeight="107"/>
+	<SubTexture name="Winning0011" x="319" y="313" width="106" height="103" frameX="0" frameY="-4" frameWidth="110" frameHeight="107"/>
+	<SubTexture name="Winning0012" x="319" y="313" width="106" height="103" frameX="0" frameY="-4" frameWidth="110" frameHeight="107"/>
+	<SubTexture name="Winning0013" x="319" y="313" width="106" height="103" frameX="0" frameY="-4" frameWidth="110" frameHeight="107"/>
+	<SubTexture name="Winning0014" x="319" y="313" width="106" height="103" frameX="0" frameY="-4" frameWidth="110" frameHeight="107"/>
+</TextureAtlas>

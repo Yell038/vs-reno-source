@@ -1,0 +1,9 @@
+{
+	"directory": "street",
+	"defaultZoom": 0.6,
+	"isPixelStage": false,
+
+	"boyfriend": [1470, 450],
+	"girlfriend": [1000, 500],
+	"opponent": [600, 450]
+}
